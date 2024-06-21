@@ -1,0 +1,9 @@
+.employee_page{
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 8px;
+    background-image: radial-gradient(   white,  #f5bf42 90% );
+
+}   

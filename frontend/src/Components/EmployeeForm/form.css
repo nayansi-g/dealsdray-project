@@ -1,0 +1,79 @@
+.login_page{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.employee_form{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    box-shadow: 0px 0px 8px 3px rgba(0, 0 , 0, 0.3);
+    border-radius: 10px;
+    padding: 2%;
+    background-color: white;
+}
+
+.employee_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.input_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.input_container input{
+    border-radius: 8px;
+    height: 34px;
+    border: 2px solid #219ebc;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0 , 0, 0.3);
+}
+.input_container select{
+    border-radius: 8px;
+    height: 34px;
+    border: 2px solid #219ebc;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0 , 0, 0.3);
+}
+
+.input_label{
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0px 4px;
+    margin-bottom: 2px;
+    color: #023047;
+}
+
+.gender_options, .course_options{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button{
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #177188;
+    color: white;
+    border: 2px solid #219ebc;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0 , 0, 0.3);
+    font-weight: bold;
+
+}
+
+select option{
+    background-color: transparent;
+}

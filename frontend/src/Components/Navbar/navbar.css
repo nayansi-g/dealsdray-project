@@ -1,0 +1,43 @@
+.amp_navbar{
+    display: grid;
+    grid-template-columns: 10% 30% 60%;
+    align-items: center;
+    padding: 5px 10px ;
+    background-color: #023047;
+    color: white
+}
+
+.nav_sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_sec:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_sec ul{
+    display: flex;
+    list-style: none;
+    /* width: 100%; */
+    gap: 35px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_sec ul li:hover{
+    color: #f5bf42;
+}
+
+
+.nav_sec ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_sec ul li a:hover{
+    color: #f5bf42;
+}
